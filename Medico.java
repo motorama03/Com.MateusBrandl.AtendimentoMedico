@@ -1,4 +1,4 @@
-package com.curvello.atendimento;
+package com.filipe.AtendimentoMedico;
 
 import java.util.ArrayList;
 import java.util.List;

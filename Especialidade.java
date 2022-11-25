@@ -1,4 +1,4 @@
-package com.curvello.atendimento;
+package com.filipe.AtendimentoMedico;
 
 public class Especialidade {
 	
@@ -21,8 +21,6 @@ public class Especialidade {
 		return builder.toString();
 	}
 
+}	
 	
 	
-	
-
-}

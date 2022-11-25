@@ -1,9 +1,9 @@
-package com.curvello.atendimento;
+package com.filipe.AtendimentoMedico;
 
 import java.util.Date;
 
 public class Operacao {
-	
+
 	private Date inicio;
 	private Date fim;
 	
@@ -36,6 +36,4 @@ public class Operacao {
 	}
 	
 	
-	
-
 }

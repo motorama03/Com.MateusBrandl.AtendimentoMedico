@@ -1,4 +1,4 @@
-package com.curvello.atendimento;
+package com.filipe.AtendimentoMedico;
 
 public class Atestado extends Operacao {
 	
@@ -10,6 +10,10 @@ public class Atestado extends Operacao {
 
 	public void setCid(int cid) {
 		this.cid = cid;
+	}
+	
+	public void emitirAtestado(Atendimento atendimento) {
+		
 	}
 
 	@Override

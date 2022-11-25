@@ -1,6 +1,6 @@
-package com.curvello.atendimento;
+package com.filipe.AtendimentoMedico;
 
-public class Atendimento extends Operacao {
+	public class Atendimento extends Operacao {
 	
 	private int prioridade;
 	private int estado;
@@ -30,6 +30,9 @@ public class Atendimento extends Operacao {
 	public void setPaciente(Paciente paciente) {
 		this.paciente = paciente;
 	}
+	public void calculaPrioridade(boolean[] respostas) {
+	}
+	
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
@@ -44,9 +47,9 @@ public class Atendimento extends Operacao {
 		builder.append("]");
 		return builder.toString();
 	}
-	
-	
-	
-	
+
+
+
+
 
 }
